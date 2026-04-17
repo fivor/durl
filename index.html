@@ -48,7 +48,7 @@
 
   /* 如果背景太亮导致文字看不清，可以给主体内容容器加个半透明背景 */
   .container {
-    background-color: rgba(255, 255, 255, 0.8); /* 白色半透明 */
+    background-color: rgba(255, 255, 255, 1); /* 白色半透明 */
     padding: 20px;
     border-radius: 10px;
       }
@@ -66,9 +66,11 @@
 
       h1 {
         font-size: 5rem;
+        font-weight: bold;
         font-weight: 300;
         text-align: center;
-        opacity: .2;
+        color: white;
+        opacity: 1;
       }
 
       main[x-cloak] {
@@ -187,12 +189,12 @@
         padding: 1rem;
         border-top: 1px solid var(--border-color);
         text-align: center;
-        opacity: .5;
+        opacity: 1;
       }
 
       footer i {
         font-style: normal;
-        color: #ff8787;
+        color: white;
       }
 
       .success,
