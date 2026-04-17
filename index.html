@@ -30,6 +30,27 @@
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         text-rendering: optimizelegibility;
         -webkit-font-smoothing: antialiased;
+        /* 设置背景图片路径 */
+        background-image: url('./asset/background.webp'); 
+    
+        /* 让背景图片覆盖整个屏幕 */
+        background-size: cover; 
+    
+        /* 背景图片居中 */
+        background-position: center; 
+    
+        /* 背景图片固定，不随滚动条滚动 */
+        background-attachment: fixed; 
+    
+        /* 防止背景重复 */
+        background-repeat: no-repeat;
+  }
+
+  /* 如果背景太亮导致文字看不清，可以给主体内容容器加个半透明背景 */
+  .container {
+    background-color: rgba(255, 255, 255, 0.8); /* 白色半透明 */
+    padding: 20px;
+    border-radius: 10px;
       }
 
       a {
